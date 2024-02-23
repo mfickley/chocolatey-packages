@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>msodbcsql17</id>
+    <version>17.10.5.1</version>
+    <packageSourceUrl>https://github.com/mfickley/chocolatey-packages</packageSourceUrl>
+    <owners>allbodies</owners>
+    <!-- ============================== -->
+
+    <!-- == SOFTWARE SPECIFIC SECTION == -->
+    <title>Microsoft ODBC Driver for SQL Server 17</title>
+    <authors>Microsoft</authors>
+    <projectUrl>https://docs.microsoft.com/en-us/sql/connect/odbc/download-odbc-driver-for-sql-server</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>msodbcsql SQLServer ODBC</tags>
+    <summary>The Microsoft ODBC Driver for SQL Server 17 is a software component that enables applications to connect and interact with Microsoft SQL Server databases</summary>
+    <description>
+    *This package is for the older, Microsoft ODBC Driver for SQL Server 17*
+
+    The Microsoft ODBC Driver for SQL Server 17 is a software component designed to facilitate connectivity between applications and Microsoft SQL Server databases. 
+    This driver adheres to the Open Database Connectivity (ODBC) standard, providing a unified interface for developers across different programming languages and platforms. 
+    By using this driver, applications can establish reliable and efficient connections to SQL Server databases, enabling seamless data access, retrieval, and manipulation.
+    </description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
