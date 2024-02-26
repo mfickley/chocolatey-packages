@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>msodbcsql17</id>
-    <version>17.10.5</version>
+    <version>17.10.5.1</version>
     <packageSourceUrl>https://github.com/mfickley/chocolatey-packages</packageSourceUrl>
     <owners>allbodies</owners>
     <!-- ============================== -->
@@ -21,6 +21,9 @@
     This driver adheres to the Open Database Connectivity (ODBC) standard, providing a unified interface for developers across different programming languages and platforms. 
     By using this driver, applications can establish reliable and efficient connections to SQL Server databases, enabling seamless data access, retrieval, and manipulation.
     </description>
+    <dependencies>
+      <dependency id="vcredist2017" />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
